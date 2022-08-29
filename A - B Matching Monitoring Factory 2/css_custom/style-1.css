@@ -1,0 +1,120 @@
+﻿@font-face {
+    font-family: 'Roboto Regular';
+    src: url(../font/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(../font/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url(../font/Lato-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url(../font/Lato-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik Bold';
+    src: url(../font/Rubik-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik Regular';
+    src: url(../font/Rubik-Regular.ttf) format('truetype');
+}
+
+.jumbotron .judul {
+    font-family: 'Lato Bold';
+    font-size: 4vw;
+    text-shadow: 2px 4px 5px #adadad;
+    color: #1e1a1a;
+}
+
+.jumbotron .subjudul {
+    font-family: 'Lato Bold';
+    font-size: 2.15vw;
+    text-shadow: 7px 7px 7px #cdcbcb;
+    padding: 0px 9vw;
+    color: #226d1d;
+}
+
+@media (min-width: 720px) {
+    .jumbotron .judul {
+        font-size: 4vw;
+    }
+
+    .jumbotron .subjudul {
+        font-size: 2vw;
+        padding: 0px 20vw;
+    }
+}
+
+@media (min-width: 1010px) {
+    .jumbotron .judul {
+        font-size: 3vw;
+    }
+
+    .jumbotron .subjudul {
+        font-size: 1.5vw;
+        padding: 0px 25vw;
+    }
+}
+
+.jumbotron {
+    position: relative;
+    display: block;
+    height: 25vh;
+}
+
+.jumbotron::after {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background-image: url(../image/vb.jpg);
+    background-size: cover;
+    background-position: 0% 5%;
+    position: absolute;
+    z-index: -1;
+    opacity: .475;
+}
+
+.judul-header {
+    font-family: 'Roboto Bold';
+    text-shadow: 3px 2px 5px #2f2f2f;
+    font-size: 120%;
+}
+
+.judul-temp-hum
+{
+    font-size: 4vh;
+}
+
+.navbar img {
+    max-height: 30px;
+}
+
+#baris_datepicker1#baris_datepicker2 label {
+    font-family: 'Rubik Regular';
+    font-size: 2.5vh;
+}
+
+.place_selection {
+    font-family: 'Rubik Bold';
+    font-size: 3vh;
+}
+
+#legend_temp_chart .dygraph-legend-line > span.highlight {
+    border: 1px solid grey;
+}
+
+.navbar_select_mode
+{
+    padding-top: 65px;
+}
